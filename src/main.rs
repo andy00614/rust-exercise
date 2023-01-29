@@ -1,5 +1,6 @@
 mod compond_type;
 mod reference;
+mod slice;
 fn base() {
     // let mut x: i32 = 256;
     let mut x = 256i16;
@@ -19,4 +20,5 @@ fn main() {
    compond_type::array_type();
    compond_type::tubple_print();
    reference:: reference();
+   slice::slice()
 }
