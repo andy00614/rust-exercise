@@ -2,6 +2,7 @@ mod compond_type;
 mod reference;
 mod slice;
 mod fizz_buzz;
+mod method;
 fn base() {
     // let mut x: i32 = 256;
     let mut x = 256i16;
@@ -22,5 +23,6 @@ fn main() {
    compond_type::tubple_print();
    reference:: reference();
    slice::slice();
-   fizz_buzz::fizz_buzz_to(20)
+   fizz_buzz::fizz_buzz_to(20);
+   method:: operate_rectangle();
 }
